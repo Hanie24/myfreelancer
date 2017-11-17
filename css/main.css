@@ -1,0 +1,26 @@
+footer {
+	background: #2c3e50;
+	/*color: white;*/
+	margin: 0 auto;
+    width: 90%;
+}
+.location {
+	position: absolute;
+    left: 13%;
+    top: 4%;
+    text-align: center;
+}
+.around {
+	position: absolute;
+	left: 36%;
+	top: 4%;
+}
+.freelancer {
+	position: absolute;
+	left: 56%;
+	top: 4%;
+	text-align: center;
+}
+#copy {
+	text-align: center;
+}
