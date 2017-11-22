@@ -1,26 +1,122 @@
-footer {
-	background: #2c3e50;
-	/*color: white;*/
-	margin: 0 auto;
-    width: 90%;
+body {
+	margin: 0%;
+	padding: 0%;
 }
-.location {
-	position: absolute;
-    left: 13%;
-    top: 4%;
+
+.header {
+	background: #2c3e50;
+	color: white;
+	position: fixed;
+	width: 100%;
+	height: 15%;
+}
+
+.header > .start {
+    margin: 2%;
+    font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.header > .options {
+	float: right;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.header > .options > .menu {
+  margin: 20px 40px;
+  font-weight: 700;
+}
+
+.main {
+	background: #18bc9c;
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	height: 50%;
+}
+
+.portafolio > h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+    color: black;
+}
+
+.images > img {
+    display: inline-block;
+    width: 29%;
+    height: 29%;
+    margin: 1% 1% 1% 2.5%;
+}
+
+.about > .column1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+    color: white;
+}
+
+.about > .column2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+    color: white;
+}
+
+.about {
+	background: #18bc9c;
+	height: 50%;
+}
+
+.about > h3 {
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+	font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.contact > h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+	font-size: 50px;
     text-align: center;
 }
-.around {
-	position: absolute;
-	left: 36%;
-	top: 4%;
+
+.footer {
+	background: #2c3e50;
+	color: white;
+    width: 100%;
 }
-.freelancer {
-	position: absolute;
-	left: 56%;
-	top: 4%;
+
+.footer > .location {
+    left: 13%;
+    top: 4%;
+}
+
+.footer > .around {
 	text-align: center;
 }
-#copy {
+
+.footer > .freelancer {
+	
+}
+
+.footer > div > #copy {
 	text-align: center;
 }
+.contact > .button-green {
+  background: #2ecc71;
+  color: white;
+  display: inline-block;
+  margin-top: 22px;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+
